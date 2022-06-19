@@ -1,3 +1,18 @@
+:root{
+  --purple:#BB86FC;
+  --lightDark:#1F1F1F;
+  --dark:#121212;
+  --lightText: #E7E7E7;
+  --darkText: #8B8B8B;
+}
+
+::-webkit-scrollbar{
+  width:3px;
+}
+::-webkit-scrollbar-thumb{
+  background: var(--purple);
+}
+
 .App {
   text-align: center;
 }
@@ -36,3 +51,31 @@
     transform: rotate(360deg);
   }
 }
+
+h1,h2,h3,p{
+  color:#E7E7E7
+}
+body{
+  background-color: #121212;
+}
+
+.button{
+  background-color: var(--purple);
+  color:var(--lightText);
+  font-weight: 600;
+  margin-top: 20px;
+}
+.button:active{
+  background-color: #592d8f ;
+}
+span{
+  color:var(--lightText);
+  padding:3px;
+}
+span:hover{
+  color: var(--purple);
+}
+span:active{
+  color:#592d8f;
+}
+
